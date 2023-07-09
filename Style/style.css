@@ -1,0 +1,93 @@
+* {
+    font-family: 'Century Gothic';
+}
+
+.imglupa {
+    max-width: 80px;
+    min-width: 5px;
+}
+
+.imgtitulo {
+    float: left;
+    position: absolute;
+    left: 40px;
+}
+
+.titulo {
+    text-align: center;
+    color: azure;
+}
+
+tr, th, td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: #027a89;
+    color: azure;
+}
+
+.contheader {
+    background-color: #027a89;
+    padding-block: 5px;
+    border: solid;
+    border-radius: 25px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.item {
+    display: inline-block;
+}
+
+.select, .button {
+    width: 154px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.text {
+    width: 150px;
+    height: 20px;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #027a89;
+    text-align: center;
+    color: azure;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tabladinamica {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 560px) {
+    .titulo {
+        text-align: right;
+        padding-right: 30px;
+    }
+}

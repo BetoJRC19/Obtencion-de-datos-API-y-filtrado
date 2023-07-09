@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./Style/style.css" />
+    <script src="./Script/Script1.js"></script>
+</head>
+<body>
+    <header class="contheader">
+            <div class="imgtitulo">
+                <a href="./Home.html">
+                    <img class="imglupa" src="./images/lupa.png" alt="Imagen de lupa" />
+                </a>
+            </div>
+            <div class="titulo">
+                <h1>Consulta de personas</h1>
+            </div>
+    </header>
+    <section>
+        <main>
+            <h3>&#10070; Buscador de personas &#10070;</h3>
+            <div class="contenedor">
+                <div class="item">
+                    <select class="select" id="selector">
+                        <option></option>
+                        <option value="Nombre">Nombre</option>
+                        <option value="Apellido1">Apellido 1</option>
+                        <option value="Apellido2">Apellido 2</option>
+                        <option value="Edad">Edad</option>
+                        <option value="Correo">Correo</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <input class="text" id="txtsearch">
+                </div>
+                <div class="item">
+                    <button onclick="fnAPI()" class="button" type="submit" id="btnsubmit">Buscar</button>
+                </div>
+            </div>
+            <div>
+                <div class="tabladinamica" id="contTabla"></div>
+            </div>
+        </main>
+    </section>
+    <footer>
+        <h2>Derechos reservados</h2>
+    </footer>
+</body>
+</html>
